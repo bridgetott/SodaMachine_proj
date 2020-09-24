@@ -6,7 +6,21 @@ using System.Threading.Tasks;
 
 namespace SodaMachine
 {
-    class Quarter
+    class Quarter : Coin
     {
+
+        //member variables
+
+
+        //Constructor
+
+        public Quarter()
+        {
+            name = "Quarter";
+            value = .25;
+        }
+
+
+        //member methods
     }
 }

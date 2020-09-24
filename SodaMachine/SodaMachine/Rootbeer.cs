@@ -6,7 +6,21 @@ using System.Threading.Tasks;
 
 namespace SodaMachine
 {
-    class Rootbeer
+    class Rootbeer : Can
     {
+
+        //member variables
+
+
+        //Constructor
+        public Rootbeer()
+        {
+            name = "Root Beer";
+            cost = .60;
+        }
+
+
+
+        //member methods
     }
 }

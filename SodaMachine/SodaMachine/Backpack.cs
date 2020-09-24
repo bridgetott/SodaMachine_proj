@@ -8,5 +8,19 @@ namespace SodaMachine
 {
     class Backpack
     {
+
+        //member variables
+
+
+        //Constructor
+
+        public Backpack()
+        {
+
+        }
+
+
+        //member methods
     }
+
 }

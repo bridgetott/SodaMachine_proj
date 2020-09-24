@@ -3,10 +3,25 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Serialization;
 
 namespace SodaMachine
 {
-    class Dime
+    class Dime : Coin
     {
+
+        //member variables
+
+
+        //Constructor
+
+        public Dime()
+        {
+            name = "Dime";
+            value = .10;
+        }
+
+
+        //member methods
     }
 }
