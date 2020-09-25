@@ -21,7 +21,7 @@ namespace SodaMachine
         {
             card = new Card();
             coins = new List<Coin>();
-            AddCoinstoWallet();
+            //AddCoinstoWallet();
                 
         }
         

@@ -20,7 +20,9 @@ namespace SodaMachine
             //bool enoughMoneyForPurchase = testMachine.EnoughMoneyForPurchase(testDouble, testCan);
             //testMachine.ReturnMoneyToCustomer(testList, testCustomer);
 
-            testWallet.AddCoinstoWallet();
+            //testWallet.AddCoinstoWallet();
+            //testMachine.AddCoinstoMachine();
+
         }
     }
 }
