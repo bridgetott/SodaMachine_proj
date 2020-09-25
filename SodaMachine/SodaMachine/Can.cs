@@ -19,6 +19,7 @@ namespace SodaMachine
             } 
         }
         public string name;
+        
 
 
         //Constructor
