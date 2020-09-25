@@ -57,8 +57,29 @@ namespace SodaMachine
                 register.Add(nickle);
             }
 
-
         }
+
+        public void AddCansToMachine()
+        {
+            //create a for loop to add the coins
+            for (int i = 0; i < 10; i++)
+            {
+                OrangeSoda orangeSoda = new OrangeSoda();
+                inventory.Add(orangeSoda);
+                Cola cola = new Cola();
+                inventory.Add(cola);
+            }
+
+            for (int i = 0; i < 7; i++)
+            {
+                Rootbeer rootbeer = new Rootbeer();
+                inventory.Add(rootbeer);
+            }
+
+        
+        }
+
+
 
 
         public bool EnoughMoney(double money, Can can)
@@ -91,6 +112,7 @@ namespace SodaMachine
 
 
         }
+        //reuse this method when customer gives too much money
 
         public void AddCanstoBackPack(Can canDispensedFromMachine, Backpack backpack)
         {
